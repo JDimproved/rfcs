@@ -3,6 +3,8 @@
 [JDim]を開発するために共有するべき事項を文書にまとめ管理するリポジトリです。
 RFCプロセスはプロジェクトのメンバーだけでなくJDimの開発に参加したい方に開かれています。
 
+RFCのリストは[Wiki][rfc-index]を参照してください。
+
 ## RFCプロセスで扱う事項
 開発・保守に関すること、開発・保守に影響を与える変更について扱います。
 バグ修正や互換性に影響のない変更はRFCプロセスを経ずに変更しても大丈夫です。
@@ -50,6 +52,7 @@ JDim RFCs は [MIT] と [Apache-2.0] のデュアルライセンスで公開さ�
 RFCのコピーを受け取った方は両方またはどちらかのライセンスを選んで利用してください。
 
 
+[rfc-index]: https://github.com/JDimproved/rfcs/wiki/rfc-index
 [JDim]: https://github.com/JDimproved/JDim/ "2ch browser for linux"
 [テンプレート]: https://github.com/JDimproved/rfcs/tree/master/0000-template.md
 
