@@ -1,11 +1,19 @@
 # GTK2版のサポート終了
 
+- [Revision History](#Revision)
 - [Abstract](#Abstract)
 - [Specification](#Specification)
 - [Motivation](#Motivation)
 - [Rationale](#Rationale)
 - [Backwards Compatibility](#Backwards)
 - [Rejected Ideas](#Rejected)
+
+
+<a name="Revision"></a>
+## Revision History
+
+#### r1
+- 廃止後のステップ`--with-gtkmm3=yes`もエラーにする
 
 
 <a name="Abstract"></a>
@@ -32,8 +40,7 @@ GTK2版のサポートをバージョン0.4.0のリリースをもって廃止�
 - ドキュメントの更新  
   INSTALL、マニュアル、READMEやリリースノートにGTK2版が廃止されたことを書き利用者に通知します。
 - ./configureスクリプトの変更 part1  
-  - `./configure --with-gtkmm3=no` を実行するとエラーを出して停止するように修正します。
-  - `./configure --with-gtkmm3` を実行したときにオプションが不要になったことを通知します。
+  - `./configure --with-gtkmm3` を実行するとエラーを出して停止するように修正します。
 - GTK2対応のソースコードを削除  
   configureスクリプトの変更 part1の後にGTK2を使うソースコードを削除します。
   さらに互換性のために使用している廃止予定のAPIを更新します。
