@@ -25,10 +25,14 @@ _ファイル冒頭にタイトルを書きます。タイトルにRFC番号を�
 - [Backwards Compatibility](#Backwards-Compatibility)
 - [Rejected Ideas](#Rejected-Ideas)
 - [Open Issues](#Issues)
+- [Acknowledgements](#Acknowledgements)
 
 
 <a name="Revision-History"></a>
 ## Revision History
+
+#### r2
+- タグを alpha に変更した件について、謝辞(Acknowledgements)のセクションを追加しました。
 
 #### r1
 - dev の使用には不便な点があるため alpha に変更しました。 (Rejected Ideasを参照)
@@ -160,7 +164,6 @@ _採用しなかった他のアイデアと却下の理由を書きます。_
   パッケージングツールによってはバージョンが巻き戻っているように判断される場合があるため、
   パッケージのバージョンを独自の形式にする必要があります。
   JDimが表示するバージョンとパッケージのバージョンが異なると分かりにくくなるため、不採用としました。
-  ([Thanks to @mtasaka.](https://github.com/JDimproved/JDim/issues/1411#issuecomment-2214228914))
 
 
 <a name="Issues"></a>
@@ -169,3 +172,9 @@ _未解決の問題を書きます。_
 
 - **現行リリースのバグ修正版をリリースする必要が生じた際はどうするか**  
   バグ修正版が必要になった場合は、改めてissueを作成し議論します。
+
+
+<a name="Acknowledgements"></a>
+## Acknowledgements
+@mtasaka さんよりパッケージングツールのタグに関する貴重なご意見をいただき、より扱いやすいバージョンに改善することができました。
+心より感謝申し上げます。
